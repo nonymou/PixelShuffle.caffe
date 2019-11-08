@@ -1,0 +1,9 @@
+
+message PixelShuffleParameter {
+  optional int32 sigma = 1[default=1];
+}
+
+message LayerParameter {
+  optional PixelShuffleParameter pixel_shuffle_param = 310;
+}
+
